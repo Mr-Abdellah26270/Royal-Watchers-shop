@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المتجر - متجر الساعات</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo" data-translate="logo">متجر الساعات</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" data-translate="home">الرئيسية</a></li>
+                    <li><a href="shop.html" class="active" data-translate="shop">المتجر</a></li>
+                    <li><a href="index.html#offers" data-translate="offers">العروض</a></li>
+                    <li><a href="contact.html" data-translate="contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="lang-switcher" class="lang-btn">
+                    <i class="fas fa-globe"></i>
+                    <span>English</span>
+                </button>
+                <button id="theme-toggler" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="shop-header">
+                <h1 data-translate="shop">المتجر</h1>
+                <div class="filters">
+                    <input type="text" id="search-bar" placeholder="ابحث عن ساعة..." data-translate-placeholder="search_placeholder">
+                    <select id="category-filter">
+                        <option value="all" data-translate="filter_all">كل الفئات</option>
+                        <option value="classic" data-translate="classic_watches">ساعات كلاسيكية</option>
+                        <option value="smart" data-translate="smart_watches">ساعات ذكية</option>
+                        <option value="luxury" data-translate="luxury_watches">ساعات فخمة</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <!-- Row 1 -->
+                <div class="product-card reveal">
+                    <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="ساعة 1">
+                    <h4 data-translate="watch_name_1">ساعة أنيقة</h4>
+                    <p class="price">950 د.م.</p>
+                    <a href="product.html" class="btn" data-translate="view_details">عرض التفاصيل</a>
+                </div>
+                <div class="product-card reveal">
+                    <img src="https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="ساعة 2">
+                    <h4 data-translate="watch_name_2">ساعة رياضية</h4>
+                    <p class="price">1200 د.م.</p>
+                    <a href="product.html" class="btn" data-translate="view_details">عرض التفاصيل</a>
+                </div>
+                <div class="product-card reveal">
+                    <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="ساعة 3">
+                    <h4 data-translate="watch_name_3">ساعة ذهبية</h4>
+                    <p class="price">2500 د.م.</p>
+                    <a href="product.html" class="btn" data-translate="view_details">عرض التفاصيل</a>
+                </div>
+                <div class="product-card reveal">
+                    <img src="https://images.unsplash.com/photo-1579586337278-3f436f25d4d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="ساعة 4">
+                    <h4 data-translate="watch_name_4">ساعة ذكية برو</h4>
+                    <p class="price">1800 د.م.</p>
+                    <a href="product.html" class="btn" data-translate="view_details">عرض التفاصيل</a>
+                </div>
+                <!-- Row 2 -->
+                <div class="product-card reveal">
+                    <img src="https://images.unsplash.com/photo-1509048191080-d2e2678e3449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="ساعة 5">
+                    <h4 data-translate="watch_name_5">ساعة كلاسيك</h4>
+                    <p class="price">850 د.م.</p>
+                    <a href="product.html" class="btn" data-translate="view_details">عرض التفاصيل</a>
+                </div>
+                <div class="product-card reveal">
+                    <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="ساعة 6">
+                    <h4 data-translate="watch_name_6">ساعة بسيطة</h4>
+                    <p class="price">700 د.م.</p>
+                    <a href="product.html" class="btn" data-translate="view_details">عرض التفاصيل</a>
+                </div>
+                <div class="product-card reveal">
+                    <img src="https://images.unsplash.com/photo-1533139502658-0198f920d8e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="ساعة 7">
+                    <h4 data-translate="watch_name_7">ساعة تيتانيوم</h4>
+                    <p class="price">2100 د.م.</p>
+                    <a href="product.html" class="btn" data-translate="view_details">عرض التفاصيل</a>
+                </div>
+                <div class="product-card reveal">
+                    <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="ساعة 8">
+                    <h4 data-translate="watch_name_8">ساعة فتنس</h4>
+                    <p class="price">1350 د.م.</p>
+                    <a href="product.html" class="btn" data-translate="view_details">عرض التفاصيل</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-translate="footer_text">&copy; 2025 متجر الساعات. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

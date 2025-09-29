@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سلة المشتريات - متجر الساعات</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo" data-translate="logo">متجر الساعات</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" data-translate="home">الرئيسية</a></li>
+                    <li><a href="shop.html" data-translate="shop">المتجر</a></li>
+                    <li><a href="index.html#offers" data-translate="offers">العروض</a></li>
+                    <li><a href="contact.html" data-translate="contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="lang-switcher" class="lang-btn">
+                    <i class="fas fa-globe"></i>
+                    <span>English</span>
+                </button>
+                <button id="theme-toggler" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 data-translate="cart" class="page-title">سلة المشتريات</h1>
+            <div class="cart-layout">
+                <!-- Cart Items -->
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ساعة ذهبية">
+                        <div class="item-info">
+                            <h4 data-translate="watch_name_3">ساعة ذهبية</h4>
+                            <p class="item-price">2500 د.م.</p>
+                        </div>
+                        <div class="item-quantity">
+                            <input type="number" value="1" min="1">
+                        </div>
+                        <p class="item-total">2500 د.م.</p>
+                        <button class="remove-item-btn">&times;</button>
+                    </div>
+                    <div class="cart-item">
+                        <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ساعة رياضية">
+                        <div class="item-info">
+                            <h4 data-translate="watch_name_2">ساعة رياضية</h4>
+                            <p class="item-price">1200 د.م.</p>
+                        </div>
+                        <div class="item-quantity">
+                            <input type="number" value="2" min="1">
+                        </div>
+                        <p class="item-total">2400 د.م.</p>
+                        <button class="remove-item-btn">&times;</button>
+                    </div>
+                </div>
+
+                <!-- Cart Summary -->
+                <div class="cart-summary">
+                    <h3 data-translate="cart_summary">ملخص السلة</h3>
+                    <div class="summary-row">
+                        <span data-translate="subtotal">المجموع الفرعي</span>
+                        <span>4900 د.م.</span>
+                    </div>
+                    <div class="summary-row">
+                        <span data-translate="shipping">الشحن</span>
+                        <span data-translate="free_shipping">مجاني</span>
+                    </div>
+                    <div class="summary-row total-row">
+                        <span data-translate="total">المجموع الكلي</span>
+                        <span>4900 د.م.</span>
+                    </div>
+                    <button class="btn checkout-btn" data-translate="checkout">إتمام الشراء</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-translate="footer_text">&copy; 2025 متجر الساعات. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

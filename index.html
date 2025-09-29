@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Watchers 👑</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo" data-translate="logo">متجر الساعات</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active" data-translate="home">الرئيسية</a></li>
+                    <li><a href="shop.html" data-translate="shop">المتجر</a></li>
+                    <li><a href="#offers" data-translate="offers">العروض</a></li>
+                    <li><a href="contact.html" data-translate="contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="lang-switcher" class="lang-btn">
+                    <i class="fas fa-globe"></i>
+                    <span>English</span>
+                </button>
+                <button id="theme-toggler" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1 data-translate="hero_title">اكتشف أفخم الساعات</h1>
+                <p data-translate="hero_subtitle">تصاميم عصرية تناسب كل الأذواق.</p>
+                <a href="shop.html" class="btn" data-translate="shop_now">تسوق الآن</a>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories">
+            <div class="container">
+                <div class="category-card reveal">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=400&q=80" alt="ساعة كلاسيكية">
+                    <h3 data-translate="classic_watches">ساعات كلاسيكية</h3>
+                </div>
+                <div class="category-card reveal">
+                    <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=400&q=80" alt="ساعة ذكية">
+                    <h3 data-translate="smart_watches">ساعات ذكية</h3>
+                </div>
+                <div class="category-card reveal">
+                    <img src="https://images.unsplash.com/photo-1594534475808-b18fc33b045e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=400&q=80" alt="ساعة فخمة">
+                    <h3 data-translate="luxury_watches">ساعات فخمة</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Sellers Section -->
+        <section id="offers" class="featured-products">
+            <div class="container">
+                <h2 class="section-title reveal" data-translate="best_sellers">الأكثر مبيعًا</h2>
+                <div class="products-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card reveal">
+                        <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="ساعة 1">
+                        <h4 data-translate="watch_name_1">ساعة أنيقة</h4>
+                        <p class="price">950 د.م.</p>
+                        <button class="btn" data-translate="add_to_cart">أضف للسلة</button>
+                    </div>
+                    <!-- Product Card 2 -->
+                    <div class="product-card reveal">
+                        <img src="https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="ساعة 2">
+                        <h4 data-translate="watch_name_2">ساعة رياضية</h4>
+                        <p class="price">1200 د.م.</p>
+                        <button class="btn" data-translate="add_to_cart">أضف للسلة</button>
+                    </div>
+                    <!-- Product Card 3 -->
+                    <div class="product-card reveal">
+                        <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="ساعة 3">
+                        <h4 data-translate="watch_name_3">ساعة ذهبية</h4>
+                        <p class="price">2500 د.م.</p>
+                        <button class="btn" data-translate="add_to_cart">أضف للسلة</button>
+                    </div>
+                     <!-- Product Card 4 -->
+                    <div class="product-card reveal">
+                        <img src="https://images.unsplash.com/photo-1579586337278-3f436f25d4d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80" alt="ساعة 4">
+                        <h4 data-translate="watch_name_4">ساعة ذكية برو</h4>
+                        <p class="price">1800 د.م.</p>
+                        <button class="btn" data-translate="add_to_cart">أضف للسلة</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-translate="footer_text">&copy; 2025 متجر الساعات. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>l>

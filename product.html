@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تفاصيل المنتج - متجر الساعات</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo" data-translate="logo">متجر الساعات</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" data-translate="home">الرئيسية</a></li>
+                    <li><a href="shop.html" data-translate="shop">المتجر</a></li>
+                    <li><a href="index.html#offers" data-translate="offers">العروض</a></li>
+                    <li><a href="contact.html" data-translate="contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="lang-switcher" class="lang-btn">
+                    <i class="fas fa-globe"></i>
+                    <span>English</span>
+                </button>
+                <button id="theme-toggler" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="product-details-layout">
+                <!-- Product Gallery -->
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=600&q=80" alt="ساعة ذهبية" id="main-product-image">
+                    </div>
+                    <div class="thumbnail-images">
+                        <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&h=150&q=80" alt="صورة مصغرة 1" class="thumbnail active">
+                        <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&h=150&q=80" alt="صورة مصغرة 2" class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&h=150&q=80" alt="صورة مصغرة 3" class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1579586337278-3f436f25d4d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&h=150&q=80" alt="صورة مصغرة 4" class="thumbnail">
+                    </div>
+                </div>
+
+                <!-- Product Info -->
+                <div class="product-info">
+                    <h1 class="product-title" data-translate="watch_name_3">ساعة ذهبية</h1>
+                    <p class="product-price">2500 د.م.</p>
+                    <p class="product-description" data-translate="product_desc">
+                        هذه الساعة الذهبية الفاخرة هي تحفة فنية تجمع بين الأناقة والدقة. مصنوعة من مواد عالية الجودة وتتميز بتصميمها الفريد الذي يلفت الأنظار.
+                    </p>
+                    <div class="product-actions">
+                        <input type="number" value="1" min="1" class="quantity-input">
+                        <button class="btn add-to-cart-btn" data-translate="add_to_cart">أضف للسلة</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Products -->
+            <section class="featured-products related-products">
+                <h2 class="section-title" data-translate="related_products">منتجات مشابهة</h2>
+                <div class="products-grid">
+                     <div class="product-card">
+                        <img src="https://fpoimg.com/300x300?text=ELEGANT&bg_color=1a1a1a&text_color=d4af37" alt="ساعة 1">
+                        <h4 data-translate="watch_name_1">ساعة أنيقة</h4>
+                        <p class="price">950 د.م.</p>
+                        <a href="product.html" class="btn" data-translate="view_details">عرض التفاصيل</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://fpoimg.com/300x300?text=TITANIUM&bg_color=1a1a1a&text_color=d4af37" alt="ساعة 7">
+                        <h4 data-translate="watch_name_7">ساعة تيتانيوم</h4>
+                        <p class="price">2100 د.م.</p>
+                        <a href="product.html" class="btn" data-translate="view_details">عرض التفاصيل</a>
+                    </div>
+                    <div class.product-card">
+                        <img src="https://fpoimg.com/300x300?text=VINTAGE&bg_color=1a1a1a&text_color=d4af37" alt="ساعة 5">
+                        <h4 data-translate="watch_name_5">ساعة كلاسيك</h4>
+                        <p class="price">850 د.م.</p>
+                        <a href="product.html" class="btn" data-translate="view_details">عرض التفاصيل</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-translate="footer_text">&copy; 2025 متجر الساعات. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
